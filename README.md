@@ -1,2 +1,2 @@
 # reframework-lua
-My personal scripts for use with REFramework.
+My personal Lua scripts for use with REFramework.
