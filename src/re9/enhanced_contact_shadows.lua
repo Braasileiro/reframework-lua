@@ -50,7 +50,7 @@ re.on_draw_ui(function()
 
   local current = get_contact_shadow_setting()
 
-  imgui.text("ContactShadowSetting: " .. tostring(current))
+  imgui.text("RenderConfig.ContactShadowSetting: " .. tostring(current))
 
   imgui.tree_pop()
 end)

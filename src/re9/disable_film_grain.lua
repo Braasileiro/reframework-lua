@@ -38,7 +38,7 @@ re.on_draw_ui(function()
 
   local current = get_is_film_grain_custom_filter_enable()
 
-  imgui.text("IsFilmGrainCustomFilterEnable: " .. tostring(current))
+  imgui.text("RenderingManager.IsFilmGrainCustomFilterEnable: " .. tostring(current))
 
   imgui.tree_pop()
 end)
